@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Personal Page" />
     <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 </head>
+
 <body>
-    <h1>En construccion</h1>
+
+    <div id="page" class="page">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+            <div class="my-photo">
+                <img src="img/my_imagen.png" alt="image">
+                <div class="mask"></div>
+            </div>
+
+            <div class="site-title-block">
+                <h1 class="site-title">Kevin Huaman</h1>
+                <p class="site-description">Full Stack Developer</p>
+            </div>
+
+            <a class="menu-toggle mobile-visible">
+                <i class="fa fa-bars"></i>
+            </a>
+        </header>
+        <!-- /Header -->
+
+        <!-- Main Content -->
+        <div id="main" class="site-main">
+            <!-- Page changer wrapper -->
+            <div class="pt-wrapper">
+                <!-- Navigation & Social buttons -->
+                <div class="site-nav mobile-menu-hide">
+                    <!-- Main menu -->
+                    <ul id="nav" class="site-main-menu">
+                        <li>
+                            <a class="pt-trigger" href="#about_me" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
+                        </li>
+                        <li>
+                            <a class="pt-trigger" href="#skills" data-animation="59" data-goto="2">Skills</a>
+                        </li>
+                        <li>
+                            <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Resume</a>
+                        </li>
+                        <li>
+                            <a class="pt-trigger" href="#contact" data-animation="61" data-goto="4">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- /Main menu -->
+
+                    <!-- Social buttons -->
+                    <ul class="social-links">
+                        <li><a class="tip social-button" href="https://github.com/kevinpqh" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
+                        <li><a class="tip social-button" href="https://linkedin.com/in/kevin-quispe-636b75160" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a class="tip social-button" href="https://twitter.com/kevpqh" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="tip social-button" href="https://www.facebook.com/kevinxpt27" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="tip social-button" href="https://www.instagram.com/kevinpqh" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="tip social-button" href="https://www.twitch.tv/kevinxpt27" target="_blank" title="Twitch"><i class="fa fa-twitch"></i></a></li>
+                    </ul>
+                    <!-- /Social buttons -->
+                </div>
+                <!-- /Navigation & Social buttons -->
+
+                <!-- Subpages -->
+                <div class="subpages">
+
+                    <!-- About Me Subpage -->
+                    <section class="pt-page pt-page-1" data-id="about_me">
+                        <div class="section-title-block">
+                            <h2 class="section-title">About Me</h2>
+                            <h5 class="section-description">Thinker</h5>
+                        </div>
+                    </section>
+                    <!-- End of About Me Subpage -->
+
+                    <!-- Skills Subpage -->
+                    <section class="pt-page pt-page-2" data-id="skills">
+                        <div class="section-title-block">
+                            <h2 class="section-title">Skills</h2>
+                            <h5 class="section-description">Powerman</h5>
+                        </div>
+                    </section>
+                    <!-- End of Skills Subpage -->
+
+                    <!-- Resume Subpage -->
+                    <section class="pt-page pt-page-3" data-id="resume">
+                        <div class="section-title-block">
+                            <h2 class="section-title">Resume</h2>
+                            <h5 class="section-description">3 Years of Experience</h5>
+                        </div>
+                    </section>
+                    <!-- End of Resume Subpage -->
+
+                    <!-- Contact Subpage -->
+                    <section class="pt-page pt-page-4" data-id="contact">
+                        <div class="section-title-block">
+                            <h2 class="section-title">Contact</h2>
+                            <h5 class="section-description">Get in Touch</h5>
+                        </div>
+                        <div class="blog-masonry">
+
+                        </div>
+                    </section>
+                    <!-- End of Contact Subpage -->
+
+                </div>
+
+            </div>
+            <!-- /Page changer wrapper -->
+        </div>
+        <!-- /Main Content -->
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
