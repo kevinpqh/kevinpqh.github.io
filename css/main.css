@@ -515,7 +515,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .site-title {
-  color: #fff;
+  color: #222;
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1em;
@@ -524,12 +524,12 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 p.site-description {
-  color: #fff;
+  color: #9c9c9c;;
   font-size: 18px;
   font-weight: 300;
   font-family: Oswald, Helvetica, sans-serif;
   margin: 10px 0;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
 }
 
 /* Social links */
